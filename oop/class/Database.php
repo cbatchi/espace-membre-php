@@ -71,7 +71,12 @@ class Database {
     $req->execute($params);
     return $req;
   }
-
+  
+  /**
+   * lastInsertId
+   *
+   * @return void
+   */
   public function lastInsertId () {
     return $this->pdo->lastInsertId();
   }
