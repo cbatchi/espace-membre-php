@@ -1,0 +1,27 @@
+.container {
+    width: 100%;
+}
+
+.main {
+    width: 100%;
+    min-height: 100vh;
+
+    background-image: url('https://wallpapercrafter.com/desktop/200856-hotels-and-stalls-in-the-streets-of-montmartre-par.jpg');
+    background-size: cover;
+    padding-top: 80px;
+}
+
+.box-form {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 10px 30px 30px 30px;
+
+    background-color: #ffffff;
+    border-radius: 10px;
+    box-shadow: 5px 5px 2px 2px #5e5c5c;
+    width: 600px;
+    height: auto;
+    margin: 0 auto;
+    font-size: .9rem;
+}
