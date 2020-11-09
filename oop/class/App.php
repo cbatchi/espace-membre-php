@@ -51,6 +51,4 @@ class App {
     }
     return self::$instance;
   }
-
-
 }
