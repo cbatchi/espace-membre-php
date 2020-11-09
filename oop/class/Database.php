@@ -36,7 +36,7 @@ class Database {
   private function pdoConnection (): PDO {
     try {
       extract($this->pdoSettings());
-      $pdo = $this->pdo = new PDO($dsn, $dbuser, $dbpass, [
+      $pdo = new PDO($dsn, $dbuser, $dbpass, [
         PDO::ATTR_ERRMODE => PDO::ERRMODE_EXCEPTION,
         PDO::ATTR_DEFAULT_FETCH_MODE => PDO::FETCH_OBJ
       ]);
